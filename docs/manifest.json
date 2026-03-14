@@ -1,0 +1,31 @@
+{
+  "generated_at": "2026-03-12T12:06:22.564Z",
+  "packs": [
+    {
+      "pack_id": "jp_car_basic",
+      "region": "JP",
+      "license_type": "普通",
+      "version": "0.2.0",
+      "updated_at": "2026-03-07T00:00:00Z",
+      "source_note": "self-authored bilingual practice set for MVP scaffolding",
+      "question_count": 24,
+      "checksum": "dde552f3393a08cd74b51c46db1d41ff72377dd92b432d5165d2d57b413bb4ae",
+      "directory": "jp_car_basic",
+      "pack_path": "jp_car_basic/pack.json",
+      "questions_path": "jp_car_basic/questions.json"
+    },
+    {
+      "pack_id": "jp_moped_basic",
+      "region": "JP",
+      "license_type": "原付",
+      "version": "0.1.0",
+      "updated_at": "2026-03-12T00:00:00Z",
+      "source_note": "self-authored bilingual practice set for bundled multi-pack regression",
+      "question_count": 16,
+      "checksum": "a5f0214dd96ed5c053e97cb11ea2701ee92944d286aec21b70c69a658dc6189b",
+      "directory": "jp_moped_basic",
+      "pack_path": "jp_moped_basic/pack.json",
+      "questions_path": "jp_moped_basic/questions.json"
+    }
+  ]
+}

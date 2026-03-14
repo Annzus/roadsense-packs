@@ -1,0 +1,10 @@
+{
+  "pack_id": "jp_car_basic",
+  "region": "JP",
+  "license_type": "普通",
+  "version": "0.2.0",
+  "updated_at": "2026-03-07T00:00:00Z",
+  "source_note": "self-authored bilingual practice set for MVP scaffolding",
+  "question_count": 24,
+  "checksum": "dde552f3393a08cd74b51c46db1d41ff72377dd92b432d5165d2d57b413bb4ae"
+}

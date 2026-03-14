@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RoadSense Packs</title>
+    <style>
+      :root {
+        color-scheme: light;
+        --bg: #f5efe2;
+        --card: #fffaf0;
+        --text: #1f3f68;
+        --muted: #68768d;
+        --accent: #f2b632;
+        --border: #d8cdb7;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      body {
+        margin: 0;
+        font-family: "Segoe UI", sans-serif;
+        background: linear-gradient(180deg, #f8f2e7 0%, var(--bg) 100%);
+        color: var(--text);
+      }
+
+      main {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 48px 20px 64px;
+      }
+
+      .card {
+        background: rgba(255, 250, 240, 0.92);
+        border: 1px solid var(--border);
+        border-radius: 24px;
+        padding: 24px;
+        box-shadow: 0 18px 40px rgba(39, 52, 74, 0.08);
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        font-size: clamp(2rem, 5vw, 3rem);
+      }
+
+      p {
+        margin: 0 0 16px;
+        line-height: 1.6;
+      }
+
+      .muted {
+        color: var(--muted);
+      }
+
+      a {
+        color: var(--text);
+        font-weight: 700;
+      }
+
+      ul {
+        margin: 16px 0 0;
+        padding-left: 20px;
+      }
+
+      code {
+        background: #efe4cb;
+        border-radius: 8px;
+        padding: 2px 6px;
+      }
+
+      .pill {
+        display: inline-block;
+        margin-bottom: 16px;
+        padding: 8px 12px;
+        border-radius: 999px;
+        background: var(--accent);
+        font-weight: 700;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <section class="card">
+        <div class="pill">RoadSense Pack Feed</div>
+        <h1>Remote Pack Manifest</h1>
+        <p class="muted">
+          This repository hosts the static manifest and pack payloads used by the
+          RoadSense Pack Manager remote update flow.
+        </p>
+        <p>
+          Manifest URL:
+          <a href="./manifest.json">./manifest.json</a>
+        </p>
+        <ul>
+          <li><a href="./jp_car_basic/pack.json">jp_car_basic/pack.json</a></li>
+          <li><a href="./jp_car_basic/questions.json">jp_car_basic/questions.json</a></li>
+          <li><a href="./jp_moped_basic/pack.json">jp_moped_basic/pack.json</a></li>
+          <li><a href="./jp_moped_basic/questions.json">jp_moped_basic/questions.json</a></li>
+        </ul>
+        <p class="muted">
+          In the app, use <code>https://annzus.github.io/roadsense-packs/manifest.json</code>
+          as the manifest URL after GitHub Pages is enabled for this repository.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

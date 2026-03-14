@@ -1,0 +1,962 @@
+[
+  {
+    "qid": "jp_car_basic:q0001",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "交差点で右折する前に優先して確認すべき対象はどれですか。",
+    "options": {
+      "A": "後続車の車間距離だけ",
+      "B": "対向直進車と横断歩行者",
+      "C": "オーディオの音量",
+      "D": "ワイパーの速度"
+    },
+    "answer": "B",
+    "tags": ["intersection", "right-turn"],
+    "explanation": {
+      "conclusion": "右折時は対向直進車と横断歩行者の安全確認が最優先です。",
+      "basis": "交差点通行の基本",
+      "pitfalls": "焦って先に曲がると車両や歩行者との接触リスクが高まります。",
+      "related_qids": ["jp_car_basic:q0006", "jp_car_basic:q0017"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "在交叉路口右转前，最优先需要确认的是哪一项？",
+        "options": {
+          "A": "只看后车车距",
+          "B": "确认对向直行车辆和横穿行人",
+          "C": "音响音量",
+          "D": "雨刷速度"
+        },
+        "explanation": {
+          "conclusion": "右转前必须优先确认对向直行车辆和行人的安全。",
+          "basis": "交叉路口通行基础",
+          "pitfalls": "如果抢先右转，容易与对向车辆或行人发生冲突。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0002",
+    "pack_id": "jp_car_basic",
+    "type": "tf",
+    "stem": "雨天時は晴天時より制動距離が短くなる。",
+    "options": {
+      "T": "True",
+      "F": "False"
+    },
+    "answer": "F",
+    "tags": ["weather", "braking"],
+    "explanation": {
+      "conclusion": "雨天時は路面摩擦が低下するため、制動距離は長くなります。",
+      "basis": "制動距離の基本",
+      "pitfalls": "晴天時と同じ感覚でブレーキを踏むと追突やスリップの危険があります。",
+      "related_qids": ["jp_car_basic:q0021"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "雨天时的制动距离会比晴天更短。",
+        "options": {
+          "T": "是",
+          "F": "否"
+        },
+        "explanation": {
+          "conclusion": "雨天路面摩擦力下降，制动距离会变长。",
+          "basis": "制动性能基础",
+          "pitfalls": "如果仍按晴天的感觉制动，容易打滑或追尾。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0003",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "一時停止標識のある交差点で正しい行動はどれですか。",
+    "options": {
+      "A": "徐行してそのまま通過する",
+      "B": "停止線の直前で完全停止し、安全確認をする",
+      "C": "後続車がいなければ停止しない",
+      "D": "歩行者がいなければ停止しない"
+    },
+    "answer": "B",
+    "tags": ["intersection", "stop-sign"],
+    "explanation": {
+      "conclusion": "一時停止では完全停止と安全確認の両方が必要です。",
+      "basis": "一時停止標識の基本ルール",
+      "pitfalls": "徐行は一時停止の代わりにはなりません。",
+      "related_qids": ["jp_car_basic:q0001", "jp_car_basic:q0024"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "在设有停车让行标志的路口，正确的做法是哪一项？",
+        "options": {
+          "A": "减速后直接通过",
+          "B": "在停止线前完全停车并确认安全",
+          "C": "后方没车就不停",
+          "D": "没有行人就不停"
+        },
+        "explanation": {
+          "conclusion": "遇到停车让行标志，必须完全停车并确认安全。",
+          "basis": "停车让行规则",
+          "pitfalls": "仅仅减速并不能代替完全停车。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0004",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "夜間運転で前車に近づいたときのライト操作として適切なのはどれですか。",
+    "options": {
+      "A": "常にハイビームのままにする",
+      "B": "前車がいればロービームに切り替える",
+      "C": "ライトを消す",
+      "D": "フォグランプだけ点灯する"
+    },
+    "answer": "B",
+    "tags": ["night", "lights"],
+    "explanation": {
+      "conclusion": "前車や対向車がいる場合はロービームに切り替えるのが基本です。",
+      "basis": "夜間の灯火使用",
+      "pitfalls": "ハイビームのまま近づくと相手を眩惑させる危険があります。",
+      "related_qids": ["jp_car_basic:q0018"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "夜间行驶时接近前车，正确的灯光操作是哪一项？",
+        "options": {
+          "A": "始终使用远光灯",
+          "B": "前方有车时切换为近光灯",
+          "C": "关闭车灯",
+          "D": "只开雾灯"
+        },
+        "explanation": {
+          "conclusion": "当前方或对向有车辆时，应切换为近光灯。",
+          "basis": "夜间灯光使用基础",
+          "pitfalls": "持续使用远光灯会使他人眩目，存在较大危险。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0005",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "高速道路で十分な車間距離をとる主な理由はどれですか。",
+    "options": {
+      "A": "追い越ししやすくするため",
+      "B": "燃費をよくするため",
+      "C": "前車の急減速に対応する時間を確保するため",
+      "D": "道路を広く見せるため"
+    },
+    "answer": "C",
+    "tags": ["highway", "distance"],
+    "explanation": {
+      "conclusion": "十分な車間距離は追突防止の基本です。",
+      "basis": "高速道路での安全走行",
+      "pitfalls": "速度が高いほど必要な停止距離と反応時間は大きくなります。",
+      "related_qids": ["jp_car_basic:q0015", "jp_car_basic:q0021"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "在高速公路上保持足够车距，最主要的原因是什么？",
+        "options": {
+          "A": "方便超车",
+          "B": "提高油耗表现",
+          "C": "为前车急减速时保留反应时间",
+          "D": "让道路看起来更宽"
+        },
+        "explanation": {
+          "conclusion": "足够的车距是避免追尾的基本前提。",
+          "basis": "高速行驶安全基础",
+          "pitfalls": "车速越高，所需安全距离就越长。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0006",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "横断歩道の手前に歩行者がいる場合の正しい対応はどれですか。",
+    "options": {
+      "A": "減速または停止して歩行者を優先する",
+      "B": "クラクションを鳴らして先に進む",
+      "C": "歩行者が見ていなければ通過する",
+      "D": "対向車がいなければ速度を上げる"
+    },
+    "answer": "A",
+    "tags": ["pedestrian", "crosswalk"],
+    "explanation": {
+      "conclusion": "横断歩道では歩行者を優先する必要があります。",
+      "basis": "歩行者保護の基本",
+      "pitfalls": "歩行者が渡ろうとしているのに進行すると重大事故につながります。",
+      "related_qids": ["jp_car_basic:q0023"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "在斑马线前有行人准备通过时，正确做法是哪一项？",
+        "options": {
+          "A": "减速或停车，让行人先行",
+          "B": "鸣喇叭后自己先走",
+          "C": "行人没看车就直接通过",
+          "D": "对向没车就加速通过"
+        },
+        "explanation": {
+          "conclusion": "在斑马线前必须优先让行人通过。",
+          "basis": "行人优先原则",
+          "pitfalls": "对准备过街的行人不让行，容易引发严重事故。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0007",
+    "pack_id": "jp_car_basic",
+    "type": "tf",
+    "stem": "黄色信号では、安全に停止できる場合は停止線の手前で止まるのが原則である。",
+    "options": {
+      "T": "True",
+      "F": "False"
+    },
+    "answer": "T",
+    "tags": ["signals", "intersection"],
+    "explanation": {
+      "conclusion": "黄色信号は注意して停止するのが原則です。",
+      "basis": "信号遵守の基本",
+      "pitfalls": "無理に加速して通過しようとすると交差車両や歩行者と衝突しやすくなります。",
+      "related_qids": ["jp_car_basic:q0001", "jp_car_basic:q0003"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "黄灯亮起时，如果能安全停车，原则上应在停止线前停车。",
+        "options": {
+          "T": "是",
+          "F": "否"
+        },
+        "explanation": {
+          "conclusion": "黄灯原则上表示应注意并停车。",
+          "basis": "信号遵守基础",
+          "pitfalls": "为了抢灯而加速通过，容易与路口其他车辆或行人发生冲突。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0008",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "進路変更を行う前の確認手順として最も適切なのはどれですか。",
+    "options": {
+      "A": "すぐにハンドルを切ってから合図する",
+      "B": "クラクションを鳴らしてから進路変更する",
+      "C": "ミラー確認、合図、目視確認の順で安全を確かめる",
+      "D": "後続車が減速するまで待つだけでよい"
+    },
+    "answer": "C",
+    "tags": ["lane-change", "mirrors"],
+    "explanation": {
+      "conclusion": "進路変更前はミラー、合図、目視確認を組み合わせて安全確認します。",
+      "basis": "進路変更の基本",
+      "pitfalls": "死角確認を省くと二輪車や小型車を見落としやすくなります。",
+      "related_qids": ["jp_car_basic:q0017"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "变更车道前，最合适的确认顺序是哪一项？",
+        "options": {
+          "A": "先打方向再打灯",
+          "B": "先鸣喇叭再变道",
+          "C": "看后视镜、打转向灯、再目视确认盲区",
+          "D": "只等后车减速即可"
+        },
+        "explanation": {
+          "conclusion": "变道前应结合后视镜、转向灯和目视确认来判断安全。",
+          "basis": "变道安全基础",
+          "pitfalls": "省略盲区确认时，最容易漏看摩托车或体积较小的车辆。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0009",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "踏切に近づいたときの基本行動として正しいものはどれですか。",
+    "options": {
+      "A": "警報が鳴っていなければ高速で通過する",
+      "B": "停止または十分な減速を行い、安全を確認して通過する",
+      "C": "前車に続いてそのまま進入する",
+      "D": "遮断機が下り始めても急いで渡る"
+    },
+    "answer": "B",
+    "tags": ["railroad", "safety"],
+    "explanation": {
+      "conclusion": "踏切では列車の有無と前方の空間を確認してから通過します。",
+      "basis": "踏切通行の基本",
+      "pitfalls": "前車だけを見て進入すると踏切内で停止させられる危険があります。",
+      "related_qids": ["jp_car_basic:q0024"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "接近铁路道口时，正确的基本做法是哪一项？",
+        "options": {
+          "A": "只要警报没响就高速通过",
+          "B": "停车或充分减速，确认安全后再通过",
+          "C": "跟着前车直接进入",
+          "D": "栏杆开始放下时赶紧冲过去"
+        },
+        "explanation": {
+          "conclusion": "通过铁路道口前，应先确认列车和前方空间是否安全。",
+          "basis": "铁路道口通行基础",
+          "pitfalls": "只盯着前车行驶，很容易在道口内被迫停车。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0010",
+    "pack_id": "jp_car_basic",
+    "type": "tf",
+    "stem": "シートベルトは後部座席でも着用する必要がある。",
+    "options": {
+      "T": "True",
+      "F": "False"
+    },
+    "answer": "T",
+    "tags": ["safety", "seatbelt"],
+    "explanation": {
+      "conclusion": "シートベルトは全ての座席で安全確保の基本です。",
+      "basis": "乗員保護の基本",
+      "pitfalls": "後席で未着用だと本人だけでなく前席乗員にも危険が及びます。",
+      "related_qids": ["jp_car_basic:q0012", "jp_car_basic:q0020"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "安全带在后排座位也必须佩戴。",
+        "options": {
+          "T": "是",
+          "F": "否"
+        },
+        "explanation": {
+          "conclusion": "安全带是所有座位的基本安全措施。",
+          "basis": "乘员保护基础",
+          "pitfalls": "后排不系安全带，不仅本人危险，也会增加前排乘员受伤风险。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0011",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "飲酒後の対応として正しいものはどれですか。",
+    "options": {
+      "A": "少量なら運転してもよい",
+      "B": "水を飲めば運転してよい",
+      "C": "短距離なら問題ない",
+      "D": "運転せず、代替手段を使う"
+    },
+    "answer": "D",
+    "tags": ["alcohol", "safety"],
+    "explanation": {
+      "conclusion": "飲酒後は運転せず、公共交通機関や代行など別の手段を選ぶべきです。",
+      "basis": "飲酒運転防止の基本",
+      "pitfalls": "自分では大丈夫だと思っても判断力は確実に低下します。",
+      "related_qids": ["jp_car_basic:q0010"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "饮酒后的正确做法是哪一项？",
+        "options": {
+          "A": "喝得少就可以开车",
+          "B": "喝水后就可以开车",
+          "C": "路程短就没问题",
+          "D": "不要开车，改用其他交通方式"
+        },
+        "explanation": {
+          "conclusion": "饮酒后不应驾驶，应改用公共交通、代驾等其他方式。",
+          "basis": "禁止酒后驾驶的基本原则",
+          "pitfalls": "即使自我感觉清醒，判断力和反应速度也会下降。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0012",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "緊急自動車が接近してきたときの対応として適切なのはどれですか。",
+    "options": {
+      "A": "そのまま速度を維持する",
+      "B": "周囲を確認して進路を譲る",
+      "C": "追い越しをかける",
+      "D": "ハザードだけを点けて止まらない"
+    },
+    "answer": "B",
+    "tags": ["emergency-vehicle", "safety"],
+    "explanation": {
+      "conclusion": "緊急自動車には安全に進路を譲る必要があります。",
+      "basis": "緊急車両への対応",
+      "pitfalls": "慌てて急停止や急ハンドルをすると周囲の車両と接触する危険があります。",
+      "related_qids": ["jp_car_basic:q0020"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "有紧急车辆接近时，正确做法是哪一项？",
+        "options": {
+          "A": "保持原速度继续走",
+          "B": "确认周围安全后让出通行空间",
+          "C": "趁机超车",
+          "D": "只开双闪但不让行"
+        },
+        "explanation": {
+          "conclusion": "遇到紧急车辆时，应在确认安全后主动让行。",
+          "basis": "紧急车辆避让基础",
+          "pitfalls": "惊慌中急刹或猛打方向，反而会引发新的危险。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0013",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "学校付近や通学路を走行する際に特に意識すべきことはどれですか。",
+    "options": {
+      "A": "制限速度ぎりぎりまで加速する",
+      "B": "速度を抑え、子どもの飛び出しに注意する",
+      "C": "歩道に寄って進行する",
+      "D": "周囲を見ずに前車についていく"
+    },
+    "answer": "B",
+    "tags": ["school-zone", "pedestrian"],
+    "explanation": {
+      "conclusion": "学校周辺では低速で走り、予測しにくい動きに備える必要があります。",
+      "basis": "生活道路での安全配慮",
+      "pitfalls": "子どもは急に道路へ出ることがあるため、前方だけの確認では不十分です。",
+      "related_qids": ["jp_car_basic:q0006"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "经过学校附近或上学路段时，最应注意的是哪一项？",
+        "options": {
+          "A": "尽量贴近限速上限行驶",
+          "B": "降低车速，注意儿童突然冲出",
+          "C": "靠近人行道行驶",
+          "D": "只跟着前车走即可"
+        },
+        "explanation": {
+          "conclusion": "在学校周边应低速行驶，并预防儿童突然出现。",
+          "basis": "生活道路安全原则",
+          "pitfalls": "儿童行动难以预测，只看正前方是不够的。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0014",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "坂道で駐車する際の基本として適切なのはどれですか。",
+    "options": {
+      "A": "駐車ブレーキを確実にかけ、車が動きにくい向きで止める",
+      "B": "ギアをニュートラルにしておく",
+      "C": "ハンドルは必ずまっすぐにする",
+      "D": "発進しやすいようにブレーキを解除する"
+    },
+    "answer": "A",
+    "tags": ["parking", "safety"],
+    "explanation": {
+      "conclusion": "坂道駐車では駐車ブレーキと車両の向きを意識して逸走を防ぎます。",
+      "basis": "駐停車の安全管理",
+      "pitfalls": "坂道での逸走は周囲の歩行者や車両に大きな危険を与えます。",
+      "related_qids": ["jp_car_basic:q0020"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "在坡道停车时，正确的基本做法是哪一项？",
+        "options": {
+          "A": "牢固拉好驻车制动，并让车辆朝不易滑动的方向停放",
+          "B": "挂空挡停车",
+          "C": "方向盘一定保持正直",
+          "D": "为便于起步先松开制动"
+        },
+        "explanation": {
+          "conclusion": "坡道停车时，要利用驻车制动和车辆朝向防止溜车。",
+          "basis": "停车安全管理",
+          "pitfalls": "坡道溜车会对周围行人和车辆造成很大危险。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0015",
+    "pack_id": "jp_car_basic",
+    "type": "tf",
+    "stem": "高速道路へ合流するときは、本線の流れに合わせて加速することが大切である。",
+    "options": {
+      "T": "True",
+      "F": "False"
+    },
+    "answer": "T",
+    "tags": ["highway", "merge"],
+    "explanation": {
+      "conclusion": "合流時は本線の流れに合わせて速度を調整することが重要です。",
+      "basis": "高速道路合流の基本",
+      "pitfalls": "速度差が大きいまま合流すると後続車が急ブレーキを強いられます。",
+      "related_qids": ["jp_car_basic:q0005"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "驶入高速公路主线时，重要的是把速度调整到与主线车流大致一致。",
+        "options": {
+          "T": "是",
+          "F": "否"
+        },
+        "explanation": {
+          "conclusion": "汇入主线时，应尽量使速度与主线车流相匹配。",
+          "basis": "高速并道基础",
+          "pitfalls": "速度差过大时并线，会迫使主线车辆急刹或急避让。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0016",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "前車を追い越すときの基本として最も適切なのはどれですか。",
+    "options": {
+      "A": "左側から素早く抜く",
+      "B": "前車との距離を極端に詰めてから出る",
+      "C": "安全確認をしたうえで、必要な範囲で追い越す",
+      "D": "対向車がいても加速して先に抜く"
+    },
+    "answer": "C",
+    "tags": ["overtaking", "safety"],
+    "explanation": {
+      "conclusion": "追い越しは周囲の安全を十分確認してから、必要最小限で行います。",
+      "basis": "追い越しの基本",
+      "pitfalls": "焦って無理に出ると対向車線や死角からの危険に対応できません。",
+      "related_qids": ["jp_car_basic:q0008"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "超越前车时，最合适的基本做法是哪一项？",
+        "options": {
+          "A": "从左侧迅速超过",
+          "B": "先极度贴近前车再超",
+          "C": "充分确认安全后，在必要范围内完成超车",
+          "D": "有对向来车也先加速超过"
+        },
+        "explanation": {
+          "conclusion": "超车前必须充分确认周围安全，并以必要最小范围完成操作。",
+          "basis": "超车安全基础",
+          "pitfalls": "贸然超车时，最容易应对不了对向来车或盲区风险。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0017",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "左折時に特に注意すべき対象として適切なのはどれですか。",
+    "options": {
+      "A": "ルームミラーだけ",
+      "B": "左後方から来る自転車や二輪車",
+      "C": "ナビ画面の案内",
+      "D": "後席の荷物"
+    },
+    "answer": "B",
+    "tags": ["bicycle", "left-turn"],
+    "explanation": {
+      "conclusion": "左折時は巻き込みを防ぐため、左後方の自転車や二輪車に特に注意します。",
+      "basis": "左折時の安全確認",
+      "pitfalls": "ミラーだけでは死角が残るため、目視確認も重要です。",
+      "related_qids": ["jp_car_basic:q0008", "jp_car_basic:q0001"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "左转时，特别需要注意的对象是哪一项？",
+        "options": {
+          "A": "只看车内后视镜",
+          "B": "左后方驶来的自行车或摩托车",
+          "C": "导航画面",
+          "D": "后排物品"
+        },
+        "explanation": {
+          "conclusion": "左转时要特别注意左后方自行车和两轮车，避免卷入事故。",
+          "basis": "左转安全确认基础",
+          "pitfalls": "只看后视镜会留下盲区，因此还需要目视确认。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0018",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "霧で視界が悪いときの灯火使用として適切なのはどれですか。",
+    "options": {
+      "A": "ライトを消して反射だけに頼る",
+      "B": "常にハイビームだけにする",
+      "C": "ロービームを基本にして、必要に応じて補助灯を使う",
+      "D": "ハザードだけ点灯して走る"
+    },
+    "answer": "C",
+    "tags": ["weather", "lights"],
+    "explanation": {
+      "conclusion": "視界不良時は周囲から見えやすくしつつ、自分の視界も確保する必要があります。",
+      "basis": "悪天候時の灯火使用",
+      "pitfalls": "ハイビームは霧で反射しやすく、かえって見えにくくなることがあります。",
+      "related_qids": ["jp_car_basic:q0004", "jp_car_basic:q0002"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "大雾导致视线不良时，哪种灯光使用方式更合适？",
+        "options": {
+          "A": "关灯，仅依靠反光",
+          "B": "始终只开远光灯",
+          "C": "以近光灯为主，必要时配合辅助灯",
+          "D": "只开双闪行驶"
+        },
+        "explanation": {
+          "conclusion": "视线不良时，要兼顾让别人看见你和保证自己看得清前方。",
+          "basis": "恶劣天气灯光使用基础",
+          "pitfalls": "远光灯在大雾中容易反射，反而可能更看不清。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0019",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "日常点検として適切なものはどれですか。",
+    "options": {
+      "A": "タイヤの空気圧や損傷を定期的に確認する",
+      "B": "異音がしても無視して走る",
+      "C": "警告灯が点いても次の点検まで待つ",
+      "D": "ライト切れは夜まで確認しない"
+    },
+    "answer": "A",
+    "tags": ["maintenance", "safety"],
+    "explanation": {
+      "conclusion": "日常点検ではタイヤ、灯火類、警告灯などを早めに確認することが大切です。",
+      "basis": "車両点検の基本",
+      "pitfalls": "小さな異常を放置すると高速走行時や悪天候時に大きなトラブルへつながります。",
+      "related_qids": ["jp_car_basic:q0002", "jp_car_basic:q0018"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "下列哪一项属于合适的日常检查？",
+        "options": {
+          "A": "定期检查轮胎气压和损伤",
+          "B": "有异响也继续开",
+          "C": "警示灯亮了也等下次保养再说",
+          "D": "灯泡坏了等到晚上再看"
+        },
+        "explanation": {
+          "conclusion": "日常检查应尽早确认轮胎、灯光和警示灯等关键状态。",
+          "basis": "车辆点检基础",
+          "pitfalls": "放任小故障不管，在高速或恶劣天气中容易演变成大问题。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0020",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "走行中に車両トラブルが起きて停止するときの基本として適切なのはどれですか。",
+    "options": {
+      "A": "安全な場所に寄せ、後続車へわかるように合図する",
+      "B": "車線中央でそのまま止まる",
+      "C": "夜間でも無灯火のままにする",
+      "D": "後続車に気づいてもらうまで何もしない"
+    },
+    "answer": "A",
+    "tags": ["breakdown", "safety"],
+    "explanation": {
+      "conclusion": "故障時はまず二次被害を防ぐため、安全な場所と周囲への表示を優先します。",
+      "basis": "故障時の安全確保",
+      "pitfalls": "停止位置が悪いと追突や多重事故の危険が高まります。",
+      "related_qids": ["jp_car_basic:q0012", "jp_car_basic:q0014"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "行驶中车辆发生故障需要停车时，正确的基本做法是哪一项？",
+        "options": {
+          "A": "尽量靠到安全地点，并向后车明确示意",
+          "B": "直接停在车道中央",
+          "C": "夜间也保持不亮灯",
+          "D": "什么都不做，等后车自己发现"
+        },
+        "explanation": {
+          "conclusion": "故障停车时，首要目标是防止二次事故，确保位置安全并让后车及时识别。",
+          "basis": "故障处置安全基础",
+          "pitfalls": "停车位置不当，很容易引发追尾或连环事故。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0021",
+    "pack_id": "jp_car_basic",
+    "type": "tf",
+    "stem": "雨天やぬれた路面では、普段より長めの車間距離をとるべきである。",
+    "options": {
+      "T": "True",
+      "F": "False"
+    },
+    "answer": "T",
+    "tags": ["weather", "distance"],
+    "explanation": {
+      "conclusion": "路面が滑りやすいときは車間距離をより長くとる必要があります。",
+      "basis": "悪天候時の車間確保",
+      "pitfalls": "晴天時の感覚のままだと、前車の減速に対応しきれません。",
+      "related_qids": ["jp_car_basic:q0002", "jp_car_basic:q0005"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "在雨天或湿滑路面上，应该比平时保持更长的车距。",
+        "options": {
+          "T": "是",
+          "F": "否"
+        },
+        "explanation": {
+          "conclusion": "路面湿滑时，应比平时保留更大的安全车距。",
+          "basis": "恶劣天气车距基础",
+          "pitfalls": "仍按晴天车距行驶，往往来不及应对前车减速。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0022",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "進入禁止の標識がある道路に対して取るべき行動はどれですか。",
+    "options": {
+      "A": "歩行者がいなければ入る",
+      "B": "短時間なら入ってよい",
+      "C": "前車が入ったので自分も入る",
+      "D": "その道路には進入しない"
+    },
+    "answer": "D",
+    "tags": ["signs", "prohibition"],
+    "explanation": {
+      "conclusion": "進入禁止標識がある道路には進入してはいけません。",
+      "basis": "標識遵守の基本",
+      "pitfalls": "他車が入っていても標識の効力は変わりません。",
+      "related_qids": ["jp_car_basic:q0003", "jp_car_basic:q0007"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "遇到禁止驶入标志的道路，正确做法是哪一项？",
+        "options": {
+          "A": "没有行人就进入",
+          "B": "只停留很短时间就可以进入",
+          "C": "前车进去了就跟着进去",
+          "D": "不要驶入该道路"
+        },
+        "explanation": {
+          "conclusion": "有禁止驶入标志的道路，不应进入。",
+          "basis": "交通标志遵守基础",
+          "pitfalls": "即使看到其他车辆进入，也不能据此忽视标志效力。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0023",
+    "pack_id": "jp_car_basic",
+    "type": "tf",
+    "stem": "信号機のない横断歩道で歩行者が渡ろうとしている場合、車は歩行者を優先しなければならない。",
+    "options": {
+      "T": "True",
+      "F": "False"
+    },
+    "answer": "T",
+    "tags": ["pedestrian", "crosswalk"],
+    "explanation": {
+      "conclusion": "信号機のない横断歩道でも歩行者優先は変わりません。",
+      "basis": "横断歩道での優先関係",
+      "pitfalls": "歩行者がまだ車道に入っていなくても、渡る意思が見えるなら注意が必要です。",
+      "related_qids": ["jp_car_basic:q0006", "jp_car_basic:q0013"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "在没有信号灯的斑马线前，如果行人准备通过，车辆必须优先让行。",
+        "options": {
+          "T": "是",
+          "F": "否"
+        },
+        "explanation": {
+          "conclusion": "即使没有信号灯，斑马线前也必须优先让行人。",
+          "basis": "斑马线优先关系基础",
+          "pitfalls": "即便行人还没走到车道里，只要明显准备通过，也应提前减速并让行。"
+        }
+      }
+    }
+  },
+  {
+    "qid": "jp_car_basic:q0024",
+    "pack_id": "jp_car_basic",
+    "type": "single",
+    "stem": "踏切内でやむを得ず停止してしまった場合、まず取るべき行動として適切なのはどれですか。",
+    "options": {
+      "A": "車内で再発進できるまで待つ",
+      "B": "後続車が来るまでそのままにする",
+      "C": "周囲の安全を確かめて速やかに脱出し、必要なら非常ボタンなどで知らせる",
+      "D": "窓を閉めて音が聞こえないようにする"
+    },
+    "answer": "C",
+    "tags": ["railroad", "emergency"],
+    "explanation": {
+      "conclusion": "踏切内に留まること自体が危険なので、まず脱出と通報を優先します。",
+      "basis": "踏切内緊急時の対応",
+      "pitfalls": "車内で迷っている時間が長いほど重大事故の危険が高まります。",
+      "related_qids": ["jp_car_basic:q0009", "jp_car_basic:q0020"]
+    },
+    "source": {
+      "kind": "self",
+      "ref": "roadsense-self-authored-mvp-pack",
+      "date": "2026-03-07"
+    },
+    "locales": {
+      "zh-CN": {
+        "stem": "如果车辆不得已停在铁路道口内，首先应采取哪种做法？",
+        "options": {
+          "A": "留在车里等待重新起步",
+          "B": "等后车来了再说",
+          "C": "先确认周围安全并尽快脱离道口，必要时使用紧急按钮等方式示警",
+          "D": "关上车窗避免听见声音"
+        },
+        "explanation": {
+          "conclusion": "停留在铁路道口内本身就很危险，首要任务是脱离并及时示警。",
+          "basis": "铁路道口紧急处置基础",
+          "pitfalls": "在车内犹豫拖延，会显著增加严重事故风险。"
+        }
+      }
+    }
+  }
+]
