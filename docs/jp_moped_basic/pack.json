@@ -2,9 +2,9 @@
   "pack_id": "jp_moped_basic",
   "region": "JP",
   "license_type": "原付",
-  "version": "0.1.0",
-  "updated_at": "2026-03-12T00:00:00Z",
+  "version": "0.1.1",
+  "updated_at": "2026-03-14T00:00:00Z",
   "source_note": "self-authored bilingual practice set for bundled multi-pack regression",
   "question_count": 16,
-  "checksum": "a5f0214dd96ed5c053e97cb11ea2701ee92944d286aec21b70c69a658dc6189b"
+  "checksum": "49bbe7575b303f1ac4673c05276d9f0dcfca60701643b25cc92eb3786de20ec6"
 }
